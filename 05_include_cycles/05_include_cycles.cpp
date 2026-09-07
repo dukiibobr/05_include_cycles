@@ -491,18 +491,18 @@ int main()
 //1
 
 
-int n;
-cout << "enter amount of numbers to print: " << endl;
-cin >> n;
-
-for (int i = 1; i <= n; i++)
-{
-	for (int j = 0; j < i; j++)
-	{
- 	cout << i;
-
-	}
-}
+//int n;
+//cout << "enter amount of numbers to print: " << endl;
+//cin >> n;
+//
+//for (int i = 1; i <= n; i++)
+//{
+//	for (int j = 0; j < i; j++)
+//	{
+// 	cout << i;
+//
+//	}
+//}
 
 
 
@@ -536,46 +536,113 @@ for (int i = 1; i <= n; i++)
 
 //3
 
+
+
 //int ten = 10;
-//
-//for (int i = 0; i < ten; i++)
-//{
-//	cout << ten<<" ";
-//}
-//
 //int nine = 9;
-//cout << endl;
-//for (int i = 0; i < nine; i++)
+//int eight = 8;
+//int suma = 0;
+//
+//for (int i = 10; i >=1; i--)
 //{
-//	cout << nine << " ";
+//	for (int j = 0; j < i; j++)
+//	{
+//		cout << i << " ";
+//
+//		suma += i;
+//	}
+//	cout << endl;
 //}
 //
-//int eight = 8;
-//cout << endl;
-//for (int i = 0; i < eight; i++)
-//{
-//	cout << eight << " ";
-//}
-//cout << endl;
-//cout << "1" << endl;
-//int suma = (ten * 10) + (nine * 9) + (eight * 8) + 1;
+//
 //cout <<"suma=" << suma << endl;
+
 
 
 
 //4
 
-//
-//for (int i = 0; i < 15; i++)
+
+//for (int i = 1; i <= 15; i++)
 //{
 //	cout << i<<" ";
 //	if (i % 2 == 0) {
-//		cout<<
+//		for (int j = 1; j < 8; j++)
+//		{
+//			cout << i<<" ";
+//		}
+//		cout << endl;
+//	}
+//	else
+//	{
+//		for (int i1 = 1; i1 <= 10; i1++)
+//		{
+//			cout << "1" << endl;
+//		}
+//	}
+//}
+
+
+//5
+
+
+//for (int i = 1; i <= 30; i++)
+//{
+//	cout << i<<" ";
+//	if (i % 2 == 0) {
+//		for (int j = 1; j <=i; j++)
+//		{
+//			cout << j<<" ";
+//		}
+//		cout << endl;
+//	}
+//	else
+//	{
+//		for (int i1 = 1; i1 <= 5; i1++)
+//		{
+//			cout << "1" << endl;
+//		}
 //	}
 //}
 
 
 
+//6
+
+//for (int i = 1; i <= 10; i++)
+//	{
+//
+//		for (int j = 1; j < 10; j++)
+//		{
+//			cout << i << "*" << j << "=" << i * j << endl;
+//		}
+//		cout << endl;
+//	}
+
+
+//7
+
+
+int a;
+cout << "enter start of range" << endl;
+cin >> a;
+
+int b;
+cout << "enter end of range" << endl;
+cin >> b;
+
+int count = 0;
+
+int i = a;
+while (i<=b)
+{
+	if (i%12==0)
+	{
+		++count;
+	}
+	++i;
+}
+cout << "count of numbers that are divided by twelve: " << count << endl;
 
 
 
